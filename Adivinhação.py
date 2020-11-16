@@ -13,6 +13,7 @@ while C < 3:
 
     if KICK == NUMBER:
         print("Parabêns você acertou")
+        break
 
     elif KICK != NUMBER:
         print("Você errou!!Você tem {} chances".format(ATTEMPTS))
